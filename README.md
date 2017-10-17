@@ -3,5 +3,5 @@
 
 mysql备份账户需要以下权限:
 
-SUPER, REPLICATION SLAVE, REPLICATION CLIENT //这个权限仅仅为mydumper备份时将slave和master的信息添加到metadata文件中
+SUPER, REPLICATION SLAVE, REPLICATION CLIENT //这个权限仅仅为mydumper备份时将slave和master的信息添加到metadata文件中<br>
 SELECT, LOCK TABLES
