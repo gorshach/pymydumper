@@ -63,7 +63,7 @@ def valid_back_path(args):
         print 'back-path is required'
         sys.exit(1)
 
-    if os.path.isdir(args['back-path']):
+    if not os.path.isdir(args['back-path']):
         print 'back-path is not valid path'
         sys.exit(1)
 
